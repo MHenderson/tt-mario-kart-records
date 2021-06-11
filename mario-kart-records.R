@@ -36,7 +36,9 @@ records_p <- records %>%
     improvement = abs(time - original_record),
     p_improvement = improvement/previous_record,
     o_improvement = improvement/original_record
-  )
+  ) %>%
+  filter(system_played == "PAL") %>%
+  filter(type == "Three Lap")
 
 colour1 <- "grey"
 colour2 <- "#1B9E77"
@@ -70,8 +72,6 @@ background_colour <- "#e4e2e0"
 text_colour <- "#212121"
 
 p <- records_p %>%
-  filter(system_played == "PAL") %>%
-  filter(type == "Three Lap") %>%
   ggplot() +
   geom_step(aes(date, o_improvement, colour = track), size = .8, alpha = .5) +
   facet_wrap(~shortcut, labeller = labeller(shortcut = shortcut_labs)) +
