@@ -1,0 +1,7 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+records|stem|a3991228cf09863e|31ec782c04e3b5e9|2c530c1562a7fbd1|-1943106005||t20137.3448150088s|s24215b|24215|rds|local|vector|||1.08||
+drivers|stem|cc8af6a04a20c49d|965dd66fc87c5535|2c530c1562a7fbd1|700207197||t20137.3448236199s|s2824b|2824|rds|local|vector|||0.639||
+records_p|stem|525a2b28f5a7dd65|85d2ad447e4c37fc|e31014fcb4b43785|1788677135||t20137.3470812088s|s30229b|30229|rds|local|vector|||0.071||
+main_plot|stem|028afaf28fabe74b|2f3c9bb64a424229|2c155334774ddd06|-973856271||t20137.3525702856s|s383870b|383870|rds|local|vector|||0.36|Using size aesthetic for lines was deprecated in ggplot2 3.4.0.ℹ Please use linewidth instead.|
+.Random.seed|object|974a8215c9deedc2
+save_main_plot|stem|abcacdf6d4f01e26|01d4f4ea0ebf4228|69d3ae8046320d49|-7430601|plot/mario-kart.png|t20137.3567337257s|s292454b|292454|file|local|vector|||1.164||
